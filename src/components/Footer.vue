@@ -1,9 +1,10 @@
 <template>
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>
-      &copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
-    </p>
+  <footer class="mt-auto mb-auto text-white-50">
+    <p class="text-center">Design By Aji sampurno</p>
   </footer>
 </template>
+<style>
+footer {
+  background: linear-gradient(#1c1c1c, #282828);
+}
+</style>

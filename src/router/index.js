@@ -1,5 +1,6 @@
+import CoverView from '@/views/CoverView.vue'
+import ProjectView from '@/views/ProjectView.vue'
 import AboutView from '@/views/AboutView.vue'
-import HomeView from '@/views/HomeView.vue'
 import ContactView from '@/views/ContactView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -8,8 +9,13 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'cover',
+      component: CoverView
+    },
+    {
+      path: '/project',
+      name: 'project',
+      component: ProjectView
     },
     {
       path: '/about',

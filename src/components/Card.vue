@@ -1,14 +1,10 @@
 <template>
-  <h2 class="text-center">Ulasan</h2>
-  <!-- Three columns of text below the carousel -->
   <div class="row mt-5">
-    <div class="colom-ulasan col-lg-4">
-      <svg
-        class="bd-placeholder-img rounded-circle m-auto"
-        width="140"
-        height="140"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
+    <div class="col-lg-4">
+      <img
+      src="../assets/project/Admin-page.jpg"
+        class="bd-placeholder-img m-auto"
+        width="400"
         aria-label="Placeholder: 140x140"
         preserveAspectRatio="xMidYMid slice"
         focusable="false"
@@ -16,7 +12,7 @@
         <title>Placeholder</title>
         <rect width="100%" height="100%" fill="#777" />
         <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-      </svg>
+      </img>
 
       <h2 class="text-center">Heading</h2>
       <p class="text-center">
@@ -27,12 +23,10 @@
     </div>
     <!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <svg
-        class="bd-placeholder-img rounded-circle"
-        width="140"
-        height="140"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
+      <img
+      src="../assets/project/Admin-page.jpg"
+        class="bd-placeholder-img"
+        width="400"
         aria-label="Placeholder: 140x140"
         preserveAspectRatio="xMidYMid slice"
         focusable="false"
@@ -40,7 +34,7 @@
         <title>Placeholder</title>
         <rect width="100%" height="100%" fill="#777" />
         <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-      </svg>
+      </img>
 
       <h2 class="text-center">Heading</h2>
       <p class="text-center">
@@ -51,12 +45,10 @@
     </div>
     <!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <svg
-        class="bd-placeholder-img rounded-circle"
-        width="140"
-        height="140"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
+      <img
+      src="../assets/project/Admin-page.jpg"
+        class="bd-placeholder-img"
+        width="400"
         aria-label="Placeholder: 140x140"
         preserveAspectRatio="xMidYMid slice"
         focusable="false"
@@ -64,7 +56,7 @@
         <title>Placeholder</title>
         <rect width="100%" height="100%" fill="#777" />
         <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-      </svg>
+      </img>
 
       <h2 class="text-center">Heading</h2>
       <p class="text-center">
@@ -77,7 +69,7 @@
   <!-- /.row -->
 </template>
 
-<style>
+<style scoped>
 .bd-placeholder-img {
   display: block;
   margin: 0 auto;

@@ -17,7 +17,7 @@
       </div>
       <div class="col-md-5">
         <img
-          src="../assets/project/Admin-page.jpg"
+          src="https://drive.google.com/file/d/1r-ditmd9RXEFRf5lJkAVeygONbt1e3VS/view?usp=drive_link"
           class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
           width="500"
           height="500"
@@ -49,7 +49,7 @@
       </div>
       <div class="col-md-5 order-md-1">
         <img
-          src="../assets/project/hijja.jpg"
+          src="https://drive.usercontent.google.com/download?id=1r-ditmd9RXEFRf5lJkAVeygONbt1e3VS&export=view&authuser=0"
           class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
           width="500"
           height="500"

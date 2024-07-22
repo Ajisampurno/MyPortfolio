@@ -15,7 +15,9 @@
         <h2>Aji Sampurno</h2>
         <p>Full Stack Web Developer | Bachelor of Information Technology</p>
         <p>
-          <router-link to="/about" class="btn btn-secondary"> View details &raquo; </router-link>
+          <router-link to="/about" class="btn btn-success shadow-button">
+            View details &raquo;
+          </router-link>
         </p>
       </div>
     </div>
@@ -24,9 +26,10 @@
 
 <style scoped>
 .main-container {
-  padding-top: 100px;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  height: 100vh;
+  padding-top: 50px;
+  background: url('../assets/backgound/bg-cover.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 94vh;
   color: #f8f9fa;
 }
 
@@ -34,10 +37,16 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 h2,
 p {
   color: #f8f9fa;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.shadow-button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 </style>

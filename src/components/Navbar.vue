@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <h3>
         <router-link to="/" class="navbar-brand">Aji Sampurno</router-link>
@@ -41,29 +41,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.navbar-transparent {
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1000; /* Ensures the navbar stays on top */
-}
-
-.navbar-brand,
-.nav-link {
-  color: #000000;
-  font-family: 'Roboto', sans-serif;
-}
-
-.active {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.nav-link:hover {
-  color: rgb(0, 191, 255);
-  text-decoration: underline;
-}
-</style>

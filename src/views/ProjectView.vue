@@ -1,8 +1,12 @@
 <script setup>
+import Navbar from '@/components/Navbar.vue'
 import Project from '@/components/Project.vue'
 </script>
 <template>
-  <main style="padding-top: 60px">
+  <header class="mb-auto">
+    <Navbar />
+  </header>
+  <main style="padding-top: 40px">
     <Project />
   </main>
 </template>

@@ -1,10 +1,12 @@
 <script setup>
-import Carousel from '@/components/Carousel.vue'
+import Navbar from '@/components/Navbar.vue'
 import tentang from '@/components/tentang.vue'
 </script>
 <template>
-  <main style="padding-top: 60px">
-    <Carousel />
+  <header class="mb-auto">
+    <Navbar />
+  </header>
+  <main>
     <div class="container">
       <hr class="featurette-divider" />
       <tentang />

@@ -7,9 +7,13 @@
           A web page or interface specifically designed for e-commerce administrators
         </p>
         <p>
-          <router-link to="/about" class="btn btn-secondary">
+          <a
+            href="https://github.com/Ajisampurno/admin-page.git"
+            target="_blank"
+            class="btn btn-secondary"
+          >
             <i class="fab fa-github"></i> Github
-          </router-link>
+          </a>
         </p>
         <p>
           <a @click="showAlert" class="btn btn-success"> Demo &raquo;</a>
@@ -39,9 +43,13 @@
           products from Hijja
         </p>
         <p>
-          <router-link to="/about" class="btn btn-secondary">
+          <a
+            href="https://github.com/Ajisampurno/e-commerce.git"
+            target="_blank"
+            class="btn btn-secondary"
+          >
             <i class="fab fa-github"></i> Github
-          </router-link>
+          </a>
         </p>
         <p>
           <a @click="showAlert" class="btn btn-success"> Demo &raquo;</a>

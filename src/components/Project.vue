@@ -49,7 +49,7 @@
       </div>
       <div class="col-md-5 order-md-1">
         <img
-          src="../assets/project/hijja.jpg"
+          src="../assets/project/Hijja.jpg"
           class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
           width="500"
           height="500"

@@ -91,6 +91,7 @@
         <p class="text-right">
           <a
             href="https://drive.google.com/file/d/19qqDpjS_Vv62dvRV04mckzoLlE58YCzy/view?usp=sharing"
+            target="_blank"
             >Certificate of Fullstack Laravel & VueJS Class Program</a
           >
         </p>

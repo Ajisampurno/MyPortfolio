@@ -10,13 +10,10 @@
           <a
             href="https://github.com/Ajisampurno/admin-page.git"
             target="_blank"
-            class="btn btn-secondary"
+            class="btn btn-dark"
           >
             <i class="fab fa-github"></i> Github
           </a>
-        </p>
-        <p>
-          <a @click="showAlert" class="btn btn-success"> Demo &raquo;</a>
         </p>
       </div>
       <div class="col-md-5">
@@ -32,7 +29,6 @@
         />
       </div>
     </div>
-
     <hr class="featurette-divider" />
 
     <div class="row featurette">
@@ -46,18 +42,136 @@
           <a
             href="https://github.com/Ajisampurno/e-commerce.git"
             target="_blank"
-            class="btn btn-secondary"
+            class="btn btn-dark"
           >
             <i class="fab fa-github"></i> Github
           </a>
-        </p>
-        <p>
-          <a @click="showAlert" class="btn btn-success"> Demo &raquo;</a>
         </p>
       </div>
       <div class="col-md-5 order-md-1">
         <img
           src="../assets/project/Hijja.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
+          width="500"
+          height="500"
+          role="img"
+          aria-label="Placeholder: 500x500"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        />
+      </div>
+    </div>
+    <hr class="featurette-divider" />
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Eiger SBT</h2>
+        <p class="lead">
+          An online shop project as a sales medium carried out with the team, for this project I
+          contributed as a junior full stack programmer, this website uses Laravel, Bootstrap,
+          JQuery, MySQL technology
+        </p>
+        <p>
+          <a
+            href="https://github.com/Ajisampurno/eigersbt.git"
+            target="_blank"
+            class="btn btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img
+          src="../assets/project/eigerSBT.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
+          width="500"
+          height="500"
+          role="img"
+          aria-label="Placeholder: 500x500"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        />
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2 text-right">
+        <h2 class="featurette-heading">Library Management System</h2>
+        <p class="lead">Library management system to manage book inventory and members</p>
+        <p>
+          <a href="https://github.com/Ajisampurno/library.git" target="_blank" class="btn btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img
+          src="../assets/project/library.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
+          width="500"
+          height="500"
+          role="img"
+          aria-label="Placeholder: 500x500"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        />
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">POS (Point of Sale)</h2>
+        <p class="lead">
+          POS (Point of Sale) application to help record sales, manage product stock and display
+          reports
+        </p>
+        <p>
+          <a href="https://github.com/Ajisampurno/POS.git" target="_blank" class="btn btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img
+          src="../assets/project/pos.jpg"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
+          width="500"
+          height="500"
+          role="img"
+          aria-label="Placeholder: 500x500"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        />
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2 text-right">
+        <h2 class="featurette-heading">SAW Decision Support System</h2>
+        <p class="lead">
+          Implementation of Decision Support System with SAW (Simple Additive Weighting) Method for
+          Selection of Best Employees of PT Essa Santosa
+        </p>
+        <p>
+          <a
+            href="https://github.com/Ajisampurno/SPK_SAW_V8.git"
+            target="_blank"
+            class="btn btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img
+          src="../assets/project/saw.jpg"
           class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded"
           width="500"
           height="500"

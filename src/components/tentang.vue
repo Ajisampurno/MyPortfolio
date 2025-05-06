@@ -1,5 +1,5 @@
 <template>
-  <div class="row g-5">
+  <div class="row">
     <div class="col-md-8">
       <article class="blog-post">
         <h2 class="blog-post-title">SUMMARY</h2>

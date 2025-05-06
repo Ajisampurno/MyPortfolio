@@ -16,6 +16,7 @@ const sendMessage = () => {
 
 <template>
   <div>
+    <!-- Navbar with fixed position -->
     <Navbar />
     <div class="main-container">
       <div class="row">
@@ -75,7 +76,7 @@ const sendMessage = () => {
 .main-container {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 100px; /* Adjust padding to prevent overlap with navbar */
   padding-bottom: 30px;
   background: url('../assets/backgound/bg-cover.png') no-repeat center center fixed;
   background-size: cover;
@@ -149,5 +150,19 @@ form {
 .btn-primary:hover {
   background-color: #1c86ee;
   border-color: #1c86ee;
+}
+
+/* Fixed Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures navbar stays on top */
+}
+
+/* Adjust main padding-top to make space for the fixed navbar */
+main {
+  padding-top: 80px; /* Adjust according to navbar height */
 }
 </style>
